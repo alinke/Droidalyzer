@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is /res/xml/mypreferences.xml -->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="flight_option_preference"
+    android:title="@string/prefTitle"
+    android:summary="@string/prefSummary">
+  <ListPreference
+    android:key="@string/selected_character"
+    android:title="@string/character"
+    android:summary="@string/listSummaryVoice"
+    android:entries="@array/character_options"
+    android:entryValues="@array/character_values"
+    android:dialogTitle="@string/dialogTitleVoice"
+    android:defaultValue="@string/character_default_value" />
+    
+    <!-- <CheckBoxPreference
+    android:title="Call Taxi"
+    android:key="pref_taxi"
+    android:summary="Call Taxi when Tipsy or Drunk"/> -->
+     
+    <EditTextPreference
+	    android:title="@string/menuTaxiNumber"
+	    android:key="@string/pref_taxi_phone"
+	    android:numeric="integer"
+	    android:defaultValue="@string/taxi_phone"
+	    android:summary="@string/menuTaxiNumberSummary"/>
+   
+    <EditTextPreference
+	    android:title="@string/menuTaxiMagic"
+	    android:key="@string/pref_taxi_sms"
+	    android:numeric="integer"
+	    android:maxLength="12"
+	    android:defaultValue="@string/taxi_sms_default"
+	    android:summary="@string/menuTaxiMagicSummary"/>
+    
+    <CheckBoxPreference
+    android:title="@string/pref_hideTaximagicTitle"
+    android:key="pref_hideTaximagic"
+    android:summary="@string/pref_hideTaximagicSummary"/>    
+       
+      <!-- 
+    <CheckBoxPreference
+    android:title="@string/menuFindFriends"
+    android:key="pref_findFriend"
+    android:summary="@string/menuFindFriendsSummary"/>
+     -->
+    
+    <!--  <CheckBoxPreference
+    android:title="Call Friend"
+    android:key="pref_friend"
+    android:summary="Call Taxi when Tipsy or Drunk"/>  -->
+    
+    <EditTextPreference
+	    android:title="@string/menuFriendPhone"
+	    android:key="@string/pref_friend_phone"
+	    android:numeric="integer"
+	    android:defaultValue="@string/friend_phone"
+	    android:summary="@string/menuFriendPhoneSummary"/>
+    
+    <!--  <CheckBoxPreference
+    android:title="Where Am I"
+    android:key="pref_whereami"
+    android:summary="Show your location when Tipsy or Drunk"/> -->
+    
+    <CheckBoxPreference
+    android:title="@string/disableActions"
+    android:key="pref_actions"
+    android:summary="@string/disableActionsSummary"/>
+   
+    <CheckBoxPreference
+    android:title="@string/menuUserAcceptance"
+    android:key="pref_show_user_acceptance"
+    android:defaultValue="@string/pref_show_user_acceptance_default"
+    android:summary="@string/menuUserAcceptanceSummary"/>
+    
+    <CheckBoxPreference
+    android:title="@string/menuDisableSleep"
+    android:key="pref_sleep"
+    android:defaultValue="@string/pref_disablesleep_default"
+    android:summary="@string/menuDisableSleepSummary"/>
+    
+    
+    <CheckBoxPreference
+    android:title="@string/menuSimulationMode"
+    android:key="pref_simulation"
+    android:defaultValue="@string/pref_simulation_default"
+    android:summary="@string/menuSimulationModeSummary"/>
+    
+    <!-- 
+    <CheckBoxPreference
+    android:title="Video Responses"
+    android:key="pref_video_response"
+    android:summary="Video Responses for Alcohol Readings"/>
+    -->
+    
+    <EditTextPreference
+    android:title="@string/menuCountdown"
+    android:key="@string/pref_countdown"
+    android:numeric="integer"
+    android:maxLength="1"
+    android:defaultValue="@string/countdown_duration"
+    android:summary="@string/menuCountdownSummary"/>
+    
+     <CheckBoxPreference
+    	android:title="@string/menuDebug"
+    	android:key="pref_debug"
+    	android:summary="@string/menuDebugSummary"/>    
+    
+    <PreferenceCategory
+    android:title="@string/menuCalibrationTitle"  
+    android:summary="@string/menuCalibrationTitle">        
+        <CheckBoxPreference
+    android:title="@string/menuDisplayData"
+    android:key="pref_show_alcohol_value"    
+    android:summary="@string/menuDisplayDataSummary"/>
+        <EditTextPreference
+	    android:title="@string/menuMinimumBaseline"
+	    android:key="@string/pref_min_baseline"
+	    android:numeric="integer"
+	    android:maxLength="3"
+	    android:defaultValue="@string/min_baseline"
+	    android:summary="@string/menuMinimumBaselineSummary"/>
+	      <EditTextPreference
+	    android:title="@string/menuHighRange"
+	    android:key="@string/pref_max_value"
+	    android:numeric="integer"
+	    android:maxLength="3"
+	    android:defaultValue="@string/max_value"
+	    android:summary="@string/menuHighRangeSummary"/>
+	    
+	   
+      </PreferenceCategory>
+      
+        <PreferenceCategory
+    android:title="@string/menuTexttoSpeechTitle"  
+    android:summary="@string/menuTexttoSpeechTitle">
+        <EditTextPreference
+	    android:title="@string/level1Result"
+	    android:key="@string/pref_tts_no_drinks"
+	    android:summary="@string/menuTTSText"
+	    android:defaultValue="@string/tts_no_drinks" />
+	    <EditTextPreference
+	    android:title="@string/level2Result"
+	    android:key="@string/pref_tts_few_drinks"
+	    android:summary="@string/menuTTSText"
+	    android:defaultValue="@string/tts_few_drinks"/>
+	    <EditTextPreference
+	    android:title="@string/level3Result"
+	    android:key="@string/pref_tts_buzzed"
+	    android:summary="@string/menuTTSText"
+	    android:defaultValue="@string/tts_buzzed"/>
+	    <EditTextPreference
+	    android:title="@string/level4Result"
+	    android:key="@string/pref_tts_drunk"
+	    android:summary="@string/menuTTSText"
+	    android:defaultValue="@string/tts_drunk"/>
+      </PreferenceCategory>
+              
+        <PreferenceCategory
+	    android:title="@string/menuSocialMediaTitle"  
+	    android:summary="@string/menuSocialMediaTitleSummary">
+        
+        <CheckBoxPreference
+	    android:title="@string/menuTweetResults"
+	    android:key="pref_tweet"
+	    android:defaultValue="@string/pref_twitter_post_default"
+	    android:summary="@string/menuTweetResultsSummary"/>
+	    
+	    <CheckBoxPreference
+	    android:title="@string/menuFacebookPosts"
+	    android:key="pref_facebook_post"
+	    android:defaultValue="@string/pref_facebook_post_default"
+	    android:summary="@string/menuFacebookPostsSummary"/>
+	    
+	    <!--    
+	    <CheckBoxPreference
+	    android:title="@string/menuFacebookFriends"
+	    android:key="pref_facebook_friends"
+	    android:summary="@string/menuFacebookFriendsSummary"/>
+      
+        <CheckBoxPreference
+	    android:title="@string/menuIncludeLocation"
+	    android:key="pref_tweet_gps"
+	    android:summary="@string/menuIncludeLocationSummary"/>
+	    -->
+         
+        <EditTextPreference
+	    android:title="@string/menuLevel1Post"
+	    android:key="@string/pref_tweet_no_drinks"
+	    android:summary="@string/postTextSummary"
+	    android:defaultValue="@string/tweet_no_drinks" />        
+	    <EditTextPreference
+	    android:title="@string/menuLevel2Post"
+	    android:key="@string/pref_tweet_few_drinks"
+	    android:summary="@string/postTextSummary"
+	    android:defaultValue="@string/tweet_few_drinks"/>
+	    <EditTextPreference
+	    android:title="@string/menuLevel3Post"
+	    android:key="@string/pref_tweet_buzzed"
+	    android:summary="@string/postTextSummary"
+	    android:defaultValue="@string/tweet_buzzed"/>
+	    <EditTextPreference
+	    android:title="@string/menuLevel4Post"
+	    android:key="@string/pref_tweet_drunk"
+	    android:summary="@string/postTextSummary"
+	    android:defaultValue="@string/tweet_drunk"/>
+      </PreferenceCategory>
+     
+   </PreferenceScreen>

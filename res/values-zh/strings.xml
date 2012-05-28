@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!-- CHINESE -->
+<resources>
+  <string name="app_name">Android酒精检测器</string>   
+    <string name="analog_label">酒精传感器：</string>
+    <string name="detected_label">酒精检测器状态：</string>    
+    <string name="myLocationString">我的位置</string>      
+    <string name="prefTitle">酒精检测器设置：</string>
+    <string name="breathalyzerStatusText">酒精检测器状态：</string>
+    <string name="character_default_value">1</string>
+    <string name="dialogTitleVoice">角色选择</string>
+    <string name="listSummaryVoice">酒精检测器的发声</string>
+    <string name="character">角色选择</string>
+    <string name="selected_character">selected_character</string>
+    <string name="menu_prefs_title">设置</string>
+    <string name="prefSummary">酒精检测器设置</string>
+    <string name="menu_about_title">设置说明</string>
+    <string name="menu_twitter_title">社交媒体帐号</string>
+    <string name="pref_tts_no_drinks">pref_tts_no_drinks</string>
+    <string name="tts_no_drinks">你什么酒都没喝。</string>
+    <string name="pref_tts_few_drinks">pref_tts_few_drinks</string>
+    <string name="tts_few_drinks">你只喝了一点。</string>
+    <string name="pref_tts_buzzed">pref_tts_buzzed</string> 
+    <string name="tts_buzzed">有点喝晕了吧？</string>
+    <string name="pref_tts_drunk">pref_tts_drunk</string>  
+    <string name="tts_drunk">你喝的太多了，朋友。</string>  
+    <string name="pref_countdown">pref_countdown</string> 
+    <string name="countdown_duration">6</string>
+    <string name="pref_min_baseline">pref_min_baseline</string>   
+    <string name="min_baseline">550</string>
+    <string name="pref_max_value">pref_max_value</string>       
+    <string name="max_value">850</string>  
+    <string name="pref_friend_phone">pref_friend_phone</string> 
+    <string name="friend_phone">4085550100</string>  
+    <string name="pref_taxi_phone">pref_taxi_phone</string> 
+    <string name="taxi_phone">4082931234</string>  
+    <string name="pref_tweet_no_drinks">pref_tweet_no_drinks</string>
+    <string name="tweet_no_drinks">我没喝，我清醒。</string>
+    <string name="pref_tweet_few_drinks">pref_tweet_few_drinks</string>
+    <string name="tweet_few_drinks">我小喝了几杯。</string>
+    <string name="pref_tweet_buzzed">pref_tweet_buzzed</string> 
+    <string name="tweet_buzzed">我喝晕了。</string>
+    <string name="pref_tweet_drunk">pref_tweet_drunk</string>  
+    <string name="tweet_drunk">我喝醉了！</string>
+    <string name="pref_facebook_post">pref_facebook_post</string> 
+    <string name="pref_facebook_friends">pref_facebook_friends</string>      
+    <string name="callFriendButtonString">打电话给朋友</string>  
+    <string name="findFriendButtonString">查找朋友</string>  
+    <string name="callTaxiButtonString">叫出租车</string>  
+    <string name="TaxiMagicButtonString">出租车预约</string>  
+    <string name="whereamiButtonString">我在哪？</string> 
+    <string name="facebookPostButtonString">Facebook Post</string> 
+    <string name="tweetButtonString">Tweet</string> 
+    <string name="cancelButtonString">取消</string> 
+    <string name="pref_debug">pref_debug</string> 
+    <string name="pref_taxi_sms">pref_taxi_sms</string> 
+    <string name="taxi_sms_default">862442</string>     
+    <string name="pref_shake_start">pref_shake_start</string> 
+    <string name="drinkometer">饮酒记录</string>
+    <string name="notConnectedLabel">Not Connected</string>  
+    <string name="FindPLacesButtonString">Nearby Places</string>   
+    
+   <!-- Layout Screen Text for Social Media Accounts Screen --> 
+    <string name="twitter_btn_post">Login Twitter</string> 
+    <string name="fb_btn_post">Login Facebook</string> 
+    <string name="btn_clear_credentialsVerbage">Logout Twitter</string> 
+    <string name="facebookLogoutButtonVerbage">Logout Facebook</string> 
+    <string name="fb_logged_out2">Facebook Status: Logged Out.\n\nNote: If you have the official Facebook app installed, the signed on user will be taken from that app. If you want to sign in as a different user from this app, you\&apos;ll need to first logout and login from the Facebook app.</string> 
+    <string name="twitter_logged_out2">Twitter Status: Logged Out</string>
+    <string name="socialMediaLabel">Note: No alcohol detector Tweets or Facebook posts will happen automatically. After each alcohol detection result, you can choose to Tweet and/or Facebook Post the reading.</string>  
+    
+        <!-- Layout Screen Text for Facebook Post Screen --> 
+    <string name="fbButtonVerbage">Post Message</string> 
+    <string name="fb_logged_in">Facebook Status: Logged In</string> 
+    <string name="fb_logged_out">Facebook Status: Logged Out\n\n
+        You will be prompted to login after clicking Post Message</string> 
+    <string name="fb_label">This message will be posted to your Facebook Wall, you can edit it before posting.</string> 
+    <string name="fbCompleteString">Message Posted to Facebook</string> 
+    
+    <!-- Layout Screen Text for Taxi Magic Screen --> 
+    <string name="cancelButtonVerbage">取消</string> 
+    <string name="taxiMagicBottomVerbage">出租车预约只有在美国的主要城市才提供。</string> 
+    <string name="taxiScreenLabelVerbage">输入接车地址，你会很快收到一条确认短信。</string> 
+    <string name="getTaxiButtonVerbage">发送</string> 
+    <string name="taxiMagicImageDescription">出租车预约图标</string> 
+    
+      
+        <!-- Layout Screen Text for Tweet Post Screen --> 
+    <string name="twitterButtonVerbage">Tweet</string> 
+    <string name="twitter_logged_in">Twitter Status: Logged In</string> 
+    <string name="twitter_logged_out">Twitter Status: Logged Out\n\n
+        You will be prompted to login after clicking Tweet</string> 
+    <string name="twitter_label">This message will be Tweeted, you can edit it before posting.</string> 
+    <string name="twitterCompleteString">Message Tweeted</string> 
+      
+   <!-- Alert Messages -->
+  <string name="userAcceptanceString">"该应用软件仅供娱乐。\n\n
+请别用该软件的测试结果作为你是否能驾驶的判别标准。"</string>
+   <string name="userAcceptanceStringTitle">仅供娱乐</string>
+   <string name="setupInstructionsString">
+1. 如果你手机是Android 2.3.3及更高的版本，请使用代码4545和酒精检测器的蓝牙配对。\n\n
+2. 如果你的手机是比Android 2.3.3更低的版本，请链接USB线，打开USB调试。打开路径为 设置 --> 应用程序 --> 开发 --> USB调试。\n\n
+3. 该应用程序仅供娱乐。请别用该软件的测试结果作为你是否能驾驶的判别标准。\n\n
+4. 尽管该酒精检测器包含了一个酒精传感器，但它并不输出BAC值，而是给出了4个等级测量结果：滴酒未沾，喝了一点，微醉，大醉。\n\n
+5. 请在饮酒，吃饭或吸烟20分钟后进行测量，否则将导致测量结果失准。\n\n
+6. 别将烟，食物或者液体吹到酒精检测器里，否者会导致其损坏。\n\n
+请安全饮酒。更过信息请访问 http://droidalyzer.com。"</string>
+<string name="setupInstructionsStringTitle">设置说明</string>   
+<string name="notFoundString">"如果使用蓝牙连接，请确认与该设备配对时使用代码4545\n\n如果使用USB线连接，请确认USB调试使用以下路径打开：设置 --> 应用程序 --> 开发 --> USB调试。"</string>   
+<string name="notFoundStringTitle">未发现酒精检测器</string>   
+<string name="instructionsString">"在点击啤酒图标开始运行应用程序时，对着酒精传感器呼吸或大声“哈哈哈哈”笑。注意，别用你的嘴唇触碰到酒精传感器。\n\n
+点击不同的角色图标，从而选择不同的发声以及其他不同的设置。\n\n
+请在饮酒，吃饭或吸烟20分钟后进行测量。\n\n
+该应用程序仅供娱乐。请安全饮酒。</string>
+   <string name="instructionsStringTitle">说明</string>   
+   <string name="blewTooSoonString">"你吹气太快了。请在点击啤酒图标后对着酒精传感器呼吸。"</string>
+   <string name="blewTooSoonStringTitle">信息</string>
+   <string name="OKText">同意</string>   
+   <string name="AcceptText">接受</string>   
+   <string name="analyzingText">分析中</string>
+   <string name="justAmomentText">请稍等...</string>  
+    
+     <!-- Alcohol Detection Results by Level -->
+   
+   <string name="level1Result">未检测到酒精</string>
+   <string name="level2Result">喝了一点</string>
+   <string name="level3Result">微醉</string>
+   <string name="level4Result">你喝醉了!</string>
+   
+    <!--Text Prompts -->
+     
+   <string name="blowForText">吹气...</string>    
+   <string name="pleaseWaitText">请稍等...</string>   
+   <string name="statusSimulationModeText">仿真模式</string>
+   <string name="statusResettingText">重新设置</string>
+   <string name="statusInprogressText">进行中</string>   
+   <string name="tapTobeginText">点击啤酒图标开始</string>
+   <string name="statusReadyText">就绪</string>
+   <string name="statusNotconnectedText">未连接</string>
+   <string name="blowPrompt">打击</string>
+   
+   <!-- Menu Messages -->
+   
+   <string name="menuTTSText">输入响应的语音内容</string>
+   <string name="menuTaxiMagic">出租车预约 短信号码</string>
+   <string name="menuTaxiMagicSummary">出租车预约只在美国的主要城市才提供，详情请见http://taximagic.com。</string>
+   <string name="menuTaxiNumber">出租车的电话号码</string>
+   <string name="menuTaxiNumberSummary">当地出租车服务的电话号码</string>   
+   <string name="menuFindFriends">寻找朋友</string>   
+   <string name="menuFindFriendsSummary">当你微醉和喝醉的时候，寻找在附近的Facebook朋友。</string>   
+   <string name="menuFriendPhone">朋友的电话号码</string>   
+   <string name="menuFriendPhoneSummary">朋友的电话号码。当你微醉和喝醉时，打电话给他。</string>   
+   <string name="menuShake">启用振动</string>   
+   <string name="menuShakeSummary">当电话震动时启动测试</string>   
+   <string name="menuUserAcceptance">用户认证</string>   
+   <string name="menuUserAcceptanceSummary">当启动是强制进行用户认证</string>   
+   <string name="menuDisableSleep">关闭休眠</string>   
+   <string name="menuDisableSleepSummary">只要应用程序是打开的，就阻止手机进入休眠状态。</string>   
+   <string name="menuSimulationMode">仿真模式</string>   
+   <string name="menuSimulationModeSummary">不带酒精传感器运行</string>   
+   <string name="menuCountdown">倒数计时</string>   
+   <string name="menuCountdownSummary">用户需要吹多少秒？</string>   
+   <string name="menuCalibrationTitle">酒精传感器设置</string>     
+   <string name="menuDisplayData">显示酒精传感器数据</string>   
+   <string name="menuDisplayDataSummary">显示酒精传感器原始数据</string>  
+   <string name="menuMinimumBaseline">最小值</string>   
+   <string name="menuMinimumBaselineSummary">酒精检测器能测量的最小值</string>  
+   <string name="menuHighRange">最大值</string>   
+   <string name="menuHighRangeSummary">酒精传感器的最大值</string>  
+   <string name="menuDebug">调试</string>   
+   <string name="menuDebugSummary">运行调试数据</string>  
+   <string name="menuTexttoSpeechTitle">文本到语音转换设置</string>   
+   <string name="menuSocialMediaTitle">社交媒体设置</string>   
+   <string name="menuSocialMediaTitleSummary">将酒精检测器的测量结果发布到Tweet或Facebook上</string>    
+   <string name="menuTweetResults">Twitter</string>   
+   <string name="menuTweetResultsSummary">Tweet酒精检测器的测量结果</string>    
+   <string name="menuFacebookPosts">Facebook发布</string>   
+   <string name="menuFacebookPostsSummary">将酒精检测器的测量结果发布到Facebook上</string>  
+   <string name="menuFacebookFriends">Facebook朋友</string>   
+   <string name="menuFacebookFriendsSummary">当你喝多的时候，定位Facebook上的朋友</string>    
+   <string name="menuIncludeLocation">包含位置</string>   
+   <string name="menuIncludeLocationSummary">在将酒精检测器的测量结果发布到Tweet或Facebook上时，包含GPS的位置信息。</string>    
+   <string name="menuLevel1Post">滴酒未沾 发布</string>  
+   <string name="menuLevel2Post">喝了一点 发布</string>  
+   <string name="menuLevel3Post">微醉 发布</string>  
+   <string name="menuLevel4Post">大醉 发布</string>    
+   <string name="postTextSummary">输入Tweet和Facebook的发布内容</string>  
+   
+   <!-- Facebook Strings -->
+   
+    <string name="app_desc"></string>
+    <string name="app_action"></string>
+    <string name="request_message">Learn how to make your android apps social.</string>
+    <string name="request">Request!</string>
+    <string name="upload">Upload Photo</string><string name="post">Wall Post!</string>
+    <string name="delete">Delete Post</string>
+    <string name="no_login">Graph API Explorer</string>
+    <string name="get_permissions">Get Permissions</string>
+    <string name="access_token">Access Token:</string>
+    <string name="graph_domain">https://graph.facebook.com/</string>
+    <string name="submit">Submit</string>
+    <string name="label_output">Output:</string>
+    <string name="show_metadata">Show metadata</string>
+    <string name="show_picture">Show picture</string>
+    <string name="view_url">URL</string>
+    <string name="target_url">Target URL:</string>
+    <string name="exception">Exception: </string>
+    <string name="tip_label">Tip:</string>
+    <string name="facebook_error">Facebook Error: </string>
+    <string name="api_response">Api Response:</string>
+    <string name="view_source">View Source</string>
+    <string name="view_post">View Post</string>
+    <string name="delete_post">Delete Post</string>
+    <string name="source_code">Source Code:</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="view_photo">View Photo</string>
+    <string name="hide_photo">Hide Photo</string>
+    <string name="tag_photo">Tag Photo</string>
+    <string name="graph_button">Graph API</string>
+    <string name="fql_button">FQL Query</string>
+    <string name="source_tag">Source tag:</string>
+    <string name="permission_source_tag">Source tag: \"perms_tag\"</string>
+    <string name="Graph_FQL_title">Graph API or FQL Query?</string>
+    <string name="Graph_FQL_msg">Get friends using Graph or FQL Query?\n\nWith FQL query you can sort the list by names, whereas with Graph list will be ordered by UID and can\'t be changed.</string>
+    <string name="can_post_on_wall_title">Post on friend\'s wall</string>
+    <string name="ok">OK</string>
+    <string name="post_on_wall_title">Post on Wall?</string>
+    <string name="post_on_wall">Would you like to post on %1$s\'s wall</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
+    <string  name="get_fields">Get Fields</string>
+    <string name="fields">Fields</string>
+    <string name="connections">Connections</string>
+    <string  name="checkin">Check-in</string>
+    <string name="cancel">Cancel</string>
+    <string name="user">User Data</string>
+    <string name="friend">Friends Data</string>
+    <string name="extended">Extended</string>
+    <string name="gallery_remote_title">Upload from gallery or remote?</string>
+    <string name="gallery_remote_msg">Upload picture from phone\' gallery or remote server?</string>
+    <string name="gallery_button">Gallery</string>
+    <string name="remote_button">Remote</string>
+    <string name="get_location">Get Location?</string>
+    <string name="get_default_or_new_location">Get current location or use Times Square as the location?</string>
+    <string name="current_location_button">Current Location</string>
+    <string name="fetching_current_permissions">Fetching current permissions...</string>
+    <string name="explorer_message">Also, checkout the web-version of the <a href="http://developers.facebook.com/tools/explorer">Graph API Explorer tool</a></string>
+    <string name="nearby_places">Finding Nearby Places...</string>
+    <string name="times_square_button">Times Square</string>
+    <string name="check_in_title">Check-in?</string>
+    <string name="permissions">Permissions</string>
+    <string name="back_parent">Back to parent</string>
+    <string name="fields_and_connections">Fields \u0026 Connections</string>
+    <string name="permissions_request">Select Permissions:</string>
+    <string name="permission_detail">Checkout <a href="https://developers.facebook.com/docs/authentication/permissions/">permissions reference doc</a></string>
+    <string name="check_in_at">Would you like to check-in at %1$s?</string>
+    <string name="post_tip">\'read_stream\' permission is required to view and delete the post.\n\nUse SDK dialogs to publish stories or post on friends wall. <a href="https://developers.facebook.com/docs/reference/dialogs">More info</a>\n\n<a href="https://developers.facebook.com/docs/reference/api/Comment">Like and Comment on a post</a></string>
+    <string name="photo_tip">Photos are by default uploaded to the app\'s album. Specify album_id to upload to specific album. E.g. https://graph.facebook.com/{album_id}/photos.\n\nMore Info: https://developers.facebook.com/docs/reference/api/photo</string>
+    <string name="fqlquery">Enter FQL Query:</string>
+    <string name="enable_gps_title">Enable GPS</string>
+    <string name="enable_gps">Please enable GPS to get nearby places and check-in</string>
+    <string name="gps_settings">GPS Settings</string>
+    <string name="placesScreenTitle">Nearby Places</string>
+    <string name="placesScreenBottomTitle">Tap a Place to Facebook Check In</string>
+    <string name="fetching_location">Finding Nearby Places...</string>    
+    <string name="can_post_on_wall">Tap on a friend to post on their wall</string>
+    <string name="can_check_in">Tap a place to check-in</string>
+    <string name="finding_friends">Finding Friends...</string>
+    <string name="finding_friends_cancel">Finding Friends Cancelled</string>
+    <string name="message_posted_on_wall">Message Posted on Wall</string>
+    <string name="actions_facebook_login_title">Facebook Login</string>
+    <string name="actions_facebook_login">You must login to Facebook for this feature</string>
+    <string name="actions_facebook_loggedout">You are logged out of Facebook</string>
+    <string name="actions_facebook_loggingout">Logging out...</string>
+    <string name="actions_facebook_fetching">Fetching user name and profile pic...</string>
+    <string name="places_checkedin">Checked In</string>
+    <string name="actions_facebook_loginfailed">Login Failed: </string>
+    <string name="actions_facebook_welcome">Logged into Facebook as</string>  
+    <string name="pref_hideTaximagicTitle">Hide Taxi Magic</string>
+    <string name="pref_hideTaximagicSummary">Non US users may want to hide the Taxi Magic button</string>
+    <string name="menu_about_title">About</string>
+    <string name="menu_about_summary">Version 1.0\n\nMore info at http://droidalyzer.com\n\nDesigned by Open Gadgets LLC</string>
+    <string name="pref_facebook_post_default">true</string>
+    <string name="pref_twitter_post_default">false</string>
+    <string name="pref_disablesleep_default">true</string>
+     <string name="pref_simulation_default">false</string>
+     
+     <string name="pref_show_user_acceptance_default">true</string>   
+    <string name="versionString">Version</string>
+    <string name="drunkDialButtonString">Random Drunk Dial</string>
+    <string name="drunkDialingPrompt">Drunk Dialing</string>    
+    <string name="disableActions">Turn Off Pop Up</string>
+    <string name="disableActionsSummary">Turn off the alcohol detection results pop up screen</string>
+    
+   <string name="batteryInfoString">The battery life of the Droidalyzer hardware device</string>
+    <string name="batteryInfoStringTitle">Droidalyzer Battery</string>
+</resources>

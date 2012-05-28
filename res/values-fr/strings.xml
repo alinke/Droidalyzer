@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!-- FRENCH -->
+<resources>
+    <string name="app_name">détecteur d\&apos;alcool</string>   
+    <string name="analog_label">Détecteur d\&apos;alcool:</string>
+    <string name="detected_label">État du détecteur d\&apos;alcool:</string>    
+    <string name="myLocationString">My Location</string>      
+    <string name="prefTitle">Paramètres du détecteur d\&apos;alcool</string>
+    <string name="breathalyzerStatusText">État du détecteur d\&apos;alcool:</string>
+    <string name="character_default_value">1</string>
+    <string name="dialogTitleVoice">Sélectionner des caractères</string>
+    <string name="listSummaryVoice">La Voix du détecteur d\&apos;alcool</string>
+    <string name="character">Sélectionner des caractères</string>
+    <string name="selected_character">selected_character</string>
+    <string name="menu_prefs_title">réglages</string>
+    <string name="prefSummary">Alcohol Detector Settings</string>
+    <string name="menu_about_title">Instructions d\&apos;installation</string>
+    <string name="menu_twitter_title">Comptes sociaux des médias</string>
+    <string name="pref_tts_no_drinks">pref_tts_no_drinks</string>
+    <string name="tts_no_drinks">Vous n\&apos;avez pas eu quelque chose à boire</string>
+    <string name="pref_tts_few_drinks">pref_tts_few_drinks</string>
+    <string name="tts_few_drinks">Juste quelques verres, un autre?</string>
+    <string name="pref_tts_buzzed">pref_tts_buzzed</string> 
+    <string name="tts_buzzed">Etes-vous la difficulté à marcher?</string>
+    <string name="pref_tts_drunk">pref_tts_drunk</string>  
+    <string name="tts_drunk">Vous êtes très saoul!</string>  
+    <string name="pref_countdown">pref_countdown</string> 
+    <string name="countdown_duration">6</string>
+    <string name="pref_min_baseline">pref_min_baseline</string>   
+    <string name="min_baseline">550</string>
+    <string name="pref_max_value">pref_max_value</string>       
+    <string name="max_value">850</string>  
+    <string name="pref_friend_phone">pref_friend_phone</string> 
+    <string name="friend_phone">4085550100</string>  
+    <string name="pref_taxi_phone">pref_taxi_phone</string> 
+    <string name="taxi_phone">4082931234</string>  
+    <string name="pref_tweet_no_drinks">pref_tweet_no_drinks</string>
+    <string name="tweet_no_drinks">J\&apos;ai eu peu ou pas de boissons</string>
+    <string name="pref_tweet_few_drinks">pref_tweet_few_drinks</string>
+    <string name="tweet_few_drinks">Je suis presque sobres</string>
+    <string name="pref_tweet_buzzed">pref_tweet_buzzed</string> 
+    <string name="tweet_buzzed">J\&apos;ai de la difficulté à marcher</string>
+    <string name="pref_tweet_drunk">pref_tweet_drunk</string>  
+    <string name="tweet_drunk">Je suis vraiment ivre!</string>
+    <string name="pref_facebook_post">pref_facebook_post</string> 
+    <string name="pref_facebook_friends">pref_facebook_friends</string>      
+    <string name="callFriendButtonString">Appelez un ami</string>  
+    <string name="findFriendButtonString">Trouver un ami</string>  
+    <string name="callTaxiButtonString">Appelez Taxis</string>  
+    <string name="TaxiMagicButtonString">Taxi Magic</string>  
+    <string name="whereamiButtonString">Où suis-je?</string> 
+    <string name="facebookPostButtonString">Facebook Post</string> 
+    <string name="tweetButtonString">Tweet</string> 
+    <string name="cancelButtonString">Annuler</string> 
+    <string name="pref_debug">pref_debug</string> 
+    <string name="pref_taxi_sms">pref_taxi_sms</string> 
+    <string name="taxi_sms_default">862442</string>     
+    <string name="pref_shake_start">pref_shake_start</string> 
+    <string name="drinkometer">buvez compteur</string> 
+    <string name="notConnectedLabel">Non connecté</string> 
+    <string name="FindPLacesButtonString">Nearby Places</string>  
+   
+    
+    <!-- Layout Screen Text for Taxi Magic Screen --> 
+    <string name="cancelButtonVerbage">Annuler</string> 
+    <string name="taxiMagicBottomVerbage">Taxi Magic service available in US major cities only</string> 
+    <string name="taxiScreenLabelVerbage">Enter pick up address, you\&apos;ll then receive an SMS text confirmation shortly</string> 
+    <string name="getTaxiButtonVerbage">Send</string> 
+    <string name="taxiMagicImageDescription">Taxi Magic Logo</string> 
+    
+   <!-- Layout Screen Text for Social Media Accounts Screen --> 
+    <string name="twitter_btn_post">Login Twitter</string> 
+    <string name="fb_btn_post">Login Facebook</string> 
+    <string name="btn_clear_credentialsVerbage">Logout Twitter</string> 
+    <string name="facebookLogoutButtonVerbage">Logout Facebook</string> 
+    <string name="fb_logged_out2">Facebook Status: Logged Out.\n\nNote: If you have the official Facebook app installed, the signed on user will be taken from that app. If you want to sign in as a different user from this app, you\&apos;ll need to first logout and login from the Facebook app.</string> 
+    <string name="twitter_logged_out2">Twitter Status: Logged Out</string>
+    <string name="socialMediaLabel">Note: No alcohol detector Tweets or Facebook posts will happen automatically. After each alcohol detection result, you can choose to Tweet and/or Facebook Post the reading.</string>  
+    
+    
+     <!-- Layout Screen Text for Facebook Post Screen --> 
+    <string name="fbButtonVerbage">Post Message</string> 
+    <string name="fb_logged_in">Facebook Status: Logged In</string> 
+    <string name="fb_logged_out">Facebook Status: Logged Out\n\n
+        You will be prompted to login after clicking Post Message</string> 
+    <string name="fb_label">This message will be posted to your Facebook Wall, you can edit it before posting.</string> 
+    <string name="fbCompleteString">Message Posted to Facebook</string> 
+    
+    
+      <!-- Layout Screen Text for Tweet Post Screen --> 
+    <string name="twitterButtonVerbage">Tweet</string> 
+    <string name="twitter_logged_in">Twitter Status: Logged In</string> 
+    <string name="twitter_logged_out">Twitter Status: Logged Out\n\n
+        You will be prompted to login after clicking Tweet</string> 
+    <string name="twitter_label">This message will be Tweeted, you can edit it before posting.</string> 
+    <string name="twitterCompleteString">Message Tweeted</string> 
+    
+    <!-- Alert Messages -->
+   
+   <string name="userAcceptanceString">"This app is for entertainment purposes only. \n\nDo not use this app to determine whether you should operate a motor vehicle or equipment."</string>
+   <string name="userAcceptanceStringTitle">Divertissement Utiliser uniquement</string>
+   <string name="setupInstructionsString">1. Bluetooth pair to the alcohol detector using code 4545 if your phone is Android 2.3.3 and above. \n\n
+	       			2. If your phone is below 2.3.3, connect using a USB cable and also turn on USB Debugging from Settings --> Applications --> Development --> USB debugging.\n\n 
+	       			3. This app is for entertainment purposes only. Do not use this app as a tool to determine whether you should operate a motor vehicle or equipment.\n\n
+	       			4. While the alcohol detector does contain a real alcohol sensor, it does not output BAC and rather gives results at four levels of alcohol level detection granularity: no alcohol detected, almost sober, tipsy, and drunk.\n\n
+	       			5. Wait at least 20 minutes after drinking, eating, or smoking before testing. Not observing this waiting period will cause inaccurate readings.\n\n
+	       			6. Do not blow smoke, food, or liquids into the alcohol detector as this will damage the sensor.\n\n 
+	       		    Please drink responsibly. More info at http://droidalyzer.com."</string>
+   <string name="setupInstructionsStringTitle">Instructions d\&apos;installation</string>   
+   <string name="notFoundString">"If using Bluetooth, make sure you've Bluetooth paired to the device using code 4545.\n\nIf connecting with a USB cable, ensure USB Debugging is turned on from Settings --> Applications --> Development --> USB debugging"</string>
+   <string name="notFoundStringTitle">Détecteur d\&apos;alcool introuvable</string>   
+   <string name="instructionsString">"After tapping the beer icon to begin, breathe into the alcohol sensor as if you were fogging up a window or say "haaaaaaaaah". Do not touch the sensor with your lips.\n\nTap the character icon to select different voices as well as other settings.\n\nWait at least 20 minutes after drinking, eating , or smoking before testing.\n\nThis app is for entertainment purposes only. Please Drink Responsibly.</string>
+   <string name="instructionsStringTitle">Instructions</string>   
+   <string name="blewTooSoonString">"You blew too soon. Please breathe into sensor after tapping the beer icon."</string>
+   <string name="blewTooSoonStringTitle">Infos</string>
+   <string name="OKText">OK</string>   
+   <string name="AcceptText">accepter</string>   
+   <string name="analyzingText">Analyse</string>
+   <string name="justAmomentText">Juste un instant ...</string>
+    
+    <!-- Alcohol Detection Results by Level -->
+   
+   <string name="level1Result">Pas d\&apos;alcool détecté</string>
+   <string name="level2Result">Près de Sober</string>
+   <string name="level3Result">Sentant Tipsy?</string>
+   <string name="level4Result">Vous êtes ivre</string>
+   
+    <!--Text Prompts -->
+     
+   <string name="blowForText">Coup pour ...</string>    
+   <string name="pleaseWaitText">S\&apos;il vous plaît patienter...</string>   
+   <string name="statusSimulationModeText">mode Simulation</string>
+   <string name="statusResettingText">Réinitialisation</string>
+   <string name="statusInprogressText">En cours</string>   
+   <string name="tapTobeginText">Tireuse à Begin</string>
+   <string name="statusReadyText">prêt</string>
+   <string name="statusNotconnectedText">Non connecté</string>
+   <string name="blowPrompt">coup</string>
+   
+   <!-- Menu Messages -->
+   
+   <string name="menuTTSText">Enter Text to Speech based response</string>
+   <string name="menuTaxiMagic">Taxi Magic SMS Number</string>
+   <string name="menuTaxiMagicSummary">Taxi Magic service in US major cities only, http://taximagic.com</string>
+   <string name="menuTaxiNumber">Taxi Phone Number</string>
+   <string name="menuTaxiNumberSummary">Phone number of your local taxi service</string>   
+   <string name="menuFindFriends">Trouver des amis</string>   
+   <string name="menuFindFriendsSummary">Trouver des amis Facebook à proximité quand vous avez eu trop à boire</string>   
+   <string name="menuFriendPhone">Friend Phone Number</string>   
+   <string name="menuFriendPhoneSummary">Phone number of friend to call when tipsy or drunk</string>   
+   <string name="menuShake">Enable Shake Start</string>   
+   <string name="menuShakeSummary">Enables test to also start when phone is shaked</string>   
+   <string name="menuUserAcceptance">User Acceptance</string>   
+   <string name="menuUserAcceptanceSummary">Force user acceptance on startup</string>   
+   <string name="menuDisableSleep">Disable Sleep</string>   
+   <string name="menuDisableSleepSummary">Prevents phone from going to sleep just while this app is open</string>   
+   <string name="menuSimulationMode">Simulation Mode</string>   
+   <string name="menuSimulationModeSummary">Run without alcohol sensor</string>   
+   <string name="menuCountdown">Countdown</string>   
+   <string name="menuCountdownSummary">How long the user should blow in seconds</string>   
+   <string name="menuCalibrationTitle">Alcohol Sensor Settings</string>     
+   <string name="menuDisplayData">Display Sensor Data</string>   
+   <string name="menuDisplayDataSummary">Display alcohol sensor raw data</string>  
+   <string name="menuMinimumBaseline">Minimum Baseline</string>   
+   <string name="menuMinimumBaselineSummary">Minimum low value for alcohol detector to be ready</string>  
+   <string name="menuHighRange">High Range</string>   
+   <string name="menuHighRangeSummary">Highest value of the alcohol sensor</string>  
+   <string name="menuDebug">Debug</string>   
+   <string name="menuDebugSummary">Displays debug data</string>  
+   <string name="menuTexttoSpeechTitle">Personnaliser Réponses Voix française</string>   
+   <string name="menuSocialMediaTitle">Social Media Settings</string>   
+   <string name="menuSocialMediaTitleSummary">Tweeting or Facebook posting of alcohol detection results</string>    
+   <string name="menuTweetResults">Twitter</string>   
+   <string name="menuTweetResultsSummary">Tweet alcohol detection results</string>    
+   <string name="menuFacebookPosts">Facebook Posts</string>   
+   <string name="menuFacebookPostsSummary">Post alcohol detection results on your Facebook Wall</string>  
+   <string name="menuFacebookFriends">Facebook Friends</string>   
+   <string name="menuFacebookFriendsSummary">Locate nearby Facebook friends if you\&apos;ve had too much</string>    
+   <string name="menuIncludeLocation">Include Location</string>   
+   <string name="menuIncludeLocationSummary">Include GPS location in Tweets and Facebook posts</string>    
+   <string name="menuLevel1Post">No Alcohol Post</string>  
+   <string name="menuLevel2Post">Almost Sober Post</string>  
+   <string name="menuLevel3Post">Tipsy Post</string>  
+   <string name="menuLevel4Post">Drunk Post</string>    
+   <string name="postTextSummary">Enter text for Tweet and Facebook posts</string> 
+    
+     <!-- Facebook Strings -->
+   
+    <string name="app_desc"></string>
+    <string name="app_action"></string>
+    <string name="request_message">Learn how to make your android apps social.</string>
+    <string name="request">Request!</string>
+    <string name="upload">Upload Photo</string><string name="post">Wall Post!</string>
+    <string name="delete">Delete Post</string>
+    <string name="no_login">Graph API Explorer</string>
+    <string name="get_permissions">Get Permissions</string>
+    <string name="access_token">Access Token:</string>
+    <string name="graph_domain">https://graph.facebook.com/</string>
+    <string name="submit">Submit</string>
+    <string name="label_output">Output:</string>
+    <string name="show_metadata">Show metadata</string>
+    <string name="show_picture">Show picture</string>
+    <string name="view_url">URL</string>
+    <string name="target_url">Target URL:</string>
+    <string name="exception">Exception: </string>
+    <string name="tip_label">Tip:</string>
+    <string name="facebook_error">Facebook Error: </string>
+    <string name="api_response">Api Response:</string>
+    <string name="view_source">View Source</string>
+    <string name="view_post">View Post</string>
+    <string name="delete_post">Delete Post</string>
+    <string name="source_code">Source Code:</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="view_photo">View Photo</string>
+    <string name="hide_photo">Hide Photo</string>
+    <string name="tag_photo">Tag Photo</string>
+    <string name="graph_button">Graph API</string>
+    <string name="fql_button">FQL Query</string>
+    <string name="source_tag">Source tag:</string>
+    <string name="permission_source_tag">Source tag: \"perms_tag\"</string>
+    <string name="Graph_FQL_title">Graph API or FQL Query?</string>
+    <string name="Graph_FQL_msg">Get friends using Graph or FQL Query?\n\nWith FQL query you can sort the list by names, whereas with Graph list will be ordered by UID and can\'t be changed.</string>
+    <string name="can_post_on_wall_title">Post on friend\'s wall</string>
+    <string name="ok">OK</string>
+    <string name="post_on_wall_title">Post on Wall?</string>
+    <string name="post_on_wall">Would you like to post on %1$s\'s wall</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
+    <string  name="get_fields">Get Fields</string>
+    <string name="fields">Fields</string>
+    <string name="connections">Connections</string>
+    <string  name="checkin">Check-in</string>
+    <string name="cancel">Cancel</string>
+    <string name="user">User Data</string>
+    <string name="friend">Friends Data</string>
+    <string name="extended">Extended</string>
+    <string name="gallery_remote_title">Upload from gallery or remote?</string>
+    <string name="gallery_remote_msg">Upload picture from phone\' gallery or remote server?</string>
+    <string name="gallery_button">Gallery</string>
+    <string name="remote_button">Remote</string>
+    <string name="get_location">Get Location?</string>
+    <string name="get_default_or_new_location">Get current location or use Times Square as the location?</string>
+    <string name="current_location_button">Current Location</string>
+    <string name="fetching_current_permissions">Fetching current permissions...</string>
+    <string name="explorer_message">Also, checkout the web-version of the <a href="http://developers.facebook.com/tools/explorer">Graph API Explorer tool</a></string>
+    <string name="nearby_places">Finding Nearby Places...</string>
+    <string name="times_square_button">Times Square</string>
+    <string name="check_in_title">Check-in?</string>
+    <string name="permissions">Permissions</string>
+    <string name="back_parent">Back to parent</string>
+    <string name="fields_and_connections">Fields \u0026 Connections</string>
+    <string name="permissions_request">Select Permissions:</string>
+    <string name="permission_detail">Checkout <a href="https://developers.facebook.com/docs/authentication/permissions/">permissions reference doc</a></string>
+    <string name="check_in_at">Would you like to check-in at %1$s?</string>
+    <string name="post_tip">\'read_stream\' permission is required to view and delete the post.\n\nUse SDK dialogs to publish stories or post on friends wall. <a href="https://developers.facebook.com/docs/reference/dialogs">More info</a>\n\n<a href="https://developers.facebook.com/docs/reference/api/Comment">Like and Comment on a post</a></string>
+    <string name="photo_tip">Photos are by default uploaded to the app\'s album. Specify album_id to upload to specific album. E.g. https://graph.facebook.com/{album_id}/photos.\n\nMore Info: https://developers.facebook.com/docs/reference/api/photo</string>
+    <string name="fqlquery">Enter FQL Query:</string>
+    <string name="enable_gps_title">Enable GPS</string>
+    <string name="enable_gps">Please enable GPS to get nearby places and check-in</string>
+    <string name="gps_settings">GPS Settings</string>
+    <string name="placesScreenTitle">Nearby Places</string>
+    <string name="placesScreenBottomTitle">Click a Place to Check In</string>
+    <string name="fetching_location">Finding Nearby Places...</string>    
+    <string name="can_post_on_wall">Tap on a friend to post on their wall</string>
+    <string name="can_check_in">Tap a place to check-in</string>
+    <string name="finding_friends">Finding Friends...</string>
+    <string name="finding_friends_cancel">Finding Friends Cancelled</string>
+    <string name="message_posted_on_wall">Message Posted on Wall</string>
+    <string name="actions_facebook_login_title">Facebook Login</string>
+    <string name="actions_facebook_login">You must login to Facebook for this feature</string>
+    <string name="actions_facebook_loggedout">You are logged out of Facebook</string>
+    <string name="actions_facebook_loggingout">Logging out...</string>
+    <string name="actions_facebook_fetching">Fetching user name and profile pic...</string>
+    <string name="places_checkedin">Checked In</string>
+    <string name="actions_facebook_loginfailed">Login Failed: </string>
+    <string name="actions_facebook_welcome">Logged into Facebook as</string>  
+    <string name="pref_hideTaximagicTitle">Hide Taxi Magic</string>
+    <string name="pref_hideTaximagicSummary">Non US users may want to hide the Taxi Magic button</string>
+    <string name="menu_about_title">About</string>
+    <string name="menu_about_summary">Version 1.0\n\nMore info at http://droidalyzer.com\n\nDesigned by Open Gadgets LLC</string>
+    <string name="pref_facebook_post_default">true</string>
+    <string name="pref_twitter_post_default">false</string>
+    <string name="pref_disablesleep_default">true</string>
+     <string name="pref_simulation_default">false</string>     
+     <string name="pref_show_user_acceptance_default">true</string>   
+    <string name="versionString">Version</string>
+    <string name="drunkDialButtonString">Random Drunk Dial</string>
+    <string name="drunkDialingPrompt">Drunk Dialing</string>    
+    <string name="disableActions">Turn Off Pop Up</string>
+    <string name="disableActionsSummary">Turn off the alcohol detection results pop up screen</string>
+    
+   <string name="batteryInfoString">The battery life of the Droidalyzer hardware device</string>
+    <string name="batteryInfoStringTitle">Droidalyzer Battery</string>
+</resources>

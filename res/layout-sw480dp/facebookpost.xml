@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/facebookpost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundblue"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <ImageView
+        android:id="@+id/facebookpostImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/facebook_post" />
+
+    <TextView
+        android:id="@+id/fbScreenLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/fb_label" />
+
+    <TextView
+        android:id="@+id/fb_login_status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/facebookpostImage"
+        android:layout_marginBottom="16dp"
+        android:layout_toLeftOf="@+id/facebookpostImage"
+        android:text=""
+        android:textColor="#000033" />
+
+    <EditText
+        android:id="@+id/facebookPostMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fbScreenLabel"
+        android:layout_alignRight="@+id/fbScreenLabel"
+        android:layout_below="@+id/fbScreenLabel"
+        android:layout_marginTop="25dp"
+        android:gravity="fill" />
+
+    <Button
+        android:id="@+id/fb_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/facebookpostImage"
+        android:layout_alignLeft="@+id/fb_login_status"
+        android:layout_alignRight="@+id/facebookpostImage"
+        android:text="@string/cancelButtonVerbage"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/fb_btn_clear_credentials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fb_cancel"
+        android:layout_alignLeft="@+id/fb_cancel"
+        android:layout_alignRight="@+id/fb_cancel"
+        android:text="@string/facebookLogoutButtonVerbage"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/fb_btn_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fb_btn_clear_credentials"
+        android:layout_alignLeft="@+id/fb_btn_clear_credentials"
+        android:layout_alignRight="@+id/fb_cancel"
+        android:text="@string/fbButtonVerbage"
+        android:textSize="50sp" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- touch down -->
+    <item
+        android:drawable="@drawable/listview_selector_pressed"
+        android:state_pressed="true"/>
+    <!-- selected -->
+    <item
+        android:drawable="@drawable/listview_selector_selected"
+        android:state_selected="true"
+        android:state_focused="false"
+        android:state_pressed="false"/>
+</selector>

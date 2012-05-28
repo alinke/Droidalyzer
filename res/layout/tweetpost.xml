@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/twitterpost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundblue"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <ImageView
+        android:id="@+id/twitterpostImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/twitter_post" />
+
+    <TextView
+        android:id="@+id/twitterScreenLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/twitter_label" />
+
+    <TextView
+        android:id="@+id/twitter_login_status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/twitterpostImage"
+        android:layout_marginBottom="16dp"
+        android:layout_toLeftOf="@+id/twitterpostImage"
+        android:text=""
+        android:textColor="#000033" />
+
+    <EditText
+        android:id="@+id/twitterPostMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/twitterScreenLabel"
+        android:layout_alignRight="@+id/twitterScreenLabel"
+        android:layout_below="@+id/twitterScreenLabel"
+        android:layout_marginTop="25dp"
+        android:gravity="fill"
+        android:maxLength="140" />
+
+    <Button
+        android:id="@+id/twitter_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/twitterpostImage"
+        android:layout_alignLeft="@+id/twitter_login_status"
+        android:layout_alignRight="@+id/twitterpostImage"
+        android:text="@string/cancelButtonVerbage"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/twitter_btn_clear_credentials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/twitter_cancel"
+        android:layout_alignLeft="@+id/twitter_cancel"
+        android:layout_alignRight="@+id/twitter_cancel"
+        android:text="@string/btn_clear_credentialsVerbage"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/twitter_btn_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/twitter_btn_clear_credentials"
+        android:layout_alignLeft="@+id/twitter_btn_clear_credentials"
+        android:layout_alignRight="@+id/twitter_btn_clear_credentials"
+        android:text="@string/twitterButtonVerbage"
+        android:textSize="30sp" />
+
+</RelativeLayout>

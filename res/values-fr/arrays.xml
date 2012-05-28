@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <!-- FRENCH -->
+<resources>
+	
+	<string-array name="character_options">
+    <item>monsieur (anglaise)</item>
+    <item>Pirate (anglaise)</item>
+    <item>effrayant (anglaise)</item>
+    <item>moyenne des caractères (anglaise)</item>
+    <item>française</item>
+	</string-array>
+	
+<string-array name="character_values">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+</string-array>
+
+	<string-array name="updateInterval">
+		<item name="1000">Every 1 second</item>
+		<item name="5000">Every 5 seconds</item>
+		<item name="30000">Every 30 seconds</item>
+		<item name="60000">Every 1 minute</item>
+		<item name="300000">Every 5 minutes</item>
+	</string-array>
+	
+	<string-array name="updateIntervalValues">
+		<item name="1000">1000</item>
+		<item name="5000">5000</item>
+		<item name="30000">30000</item>
+		<item name="60000">60000</item>
+		<item name="300000">300000</item>
+	</string-array>
+
+</resources>
+

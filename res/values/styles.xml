@@ -1,0 +1,25 @@
+<resources>
+    <style name="Button" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:shadowColor">#FF000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:textSize">16dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/actionbuttonselector</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    
+    <style name="ListView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/backgroundgrey</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:listSelector">@drawable/listview_selector</item>   
+        <item name="android:textColor">@color/darkblue</item>   
+    </style>
+    
+</resources>

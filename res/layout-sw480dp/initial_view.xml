@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:atswidget="http://schemas.android.com/apk/res/talkingbreathalyzer.main.source"
+android:focusable="true"
+android:focusableInTouchMode="true"  
+android:background="@drawable/backgroundblue"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+android:id="@+id/BreathalyzerDetected"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Not Connected"
+android:textColor="#872657"
+android:layout_alignParentTop="true"
+android:layout_toLeftOf="@+id/debug"
+>
+</TextView>
+
+<View
+android:layout_height="2dip"
+android:background="#FF909090" 
+android:layout_width="wrap_content"
+android:layout_alignParentTop="false"
+android:layout_below="@+id/BreathalyzerDetected"
+/>
+        
+        
+<TextView
+android:id="@+id/debug"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=""
+android:textColor="#000033"
+android:layout_above="@+id/alcohol_reading"
+android:layout_alignParentRight="true"
+>
+</TextView>
+<TextView
+android:id="@+id/alcohol_reading"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textColor="#000033"
+android:text=""
+android:layout_alignParentBottom="true"
+android:layout_alignParentRight="true"
+>
+</TextView>
+
+ <ProgressBar
+    android:id="@+id/breathBar"
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_above="@+id/char_button"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginBottom="20dp"
+    android:max="850"
+  
+    android:indeterminateOnly="false" 
+    android:paddingTop="5dp" />
+<TextView
+    android:id="@+id/mainStatus"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/detected_label"
+    android:gravity="center|center_vertical|left"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:text=""
+    android:textColor="#000033"
+    android:textSize="36sp" >
+
+</TextView>
+
+
+<ImageButton
+android:id="@+id/char_button"
+android:layout_width="70dp"
+android:layout_height="70dp"
+android:src="@drawable/pirateselector"
+android:onClick="charButtonEvent"
+android:layout_alignParentBottom="true"
+android:layout_alignParentLeft="true"
+android:background ="@android:color/transparent" 
+>
+</ImageButton>
+
+<TextView
+android:id="@+id/detected_label"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/breathalyzerStatusText"
+android:textColor="#000033"
+android:layout_alignParentTop="true"
+android:layout_alignParentLeft="true"
+>
+</TextView>
+<ImageButton
+    android:id="@+id/beerButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/mainStatus"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="5dp"
+    android:background="@android:color/transparent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:onClick="breathStartButtonEvent"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:src="@drawable/imagebuttonselectorbig" />
+
+<!-- <ImageButton
+    android:id="@+id/beerButton2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/mainStatus"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="5dp"
+    android:background="@android:color/transparent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:onClick="breathStartButtonEvent"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:textSize="20sp"
+    /> -->
+
+<ImageButton
+    android:id="@+id/i_button"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_alignRight="@+id/detected_label"
+    android:layout_alignTop="@+id/char_button"
+    android:background="@android:color/transparent"
+    android:onClick="iButtonEvent"
+    android:src="@drawable/iselector" />
+
+</RelativeLayout>
+

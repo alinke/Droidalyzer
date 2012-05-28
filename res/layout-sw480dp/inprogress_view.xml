@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:atswidget="http://schemas.android.com/apk/res/talkingbreathalyzer.main.source"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundblue"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <TextView
+        android:id="@+id/debug2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/alcohol_reading"
+        android:layout_alignParentRight="true"
+        android:text=""
+        android:textColor="#000033" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/alcohol_reading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text=""
+        android:textColor="#000033" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/mainStatus2"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/debug2"
+        android:layout_marginTop="5dp"
+        android:gravity="center|center_vertical|left"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:textColor="#000033"
+        android:textSize="36sp" />    
+   
+
+    <TextView
+        android:id="@+id/detected_label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/breathalyzerStatusText"
+        android:textColor="#000033" />
+
+    <TextView
+        android:id="@+id/BreathalyzerDetected2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/debug2"
+        android:text="@string/notConnectedLabel"
+        android:textColor="#872657" />
+    
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:layout_below="@+id/detected_label2"
+        android:layout_centerHorizontal="true"
+        android:background="#FF909090" />    
+   
+    <TextView
+    android:id="@+id/breathResults"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/meter2"
+    android:gravity="center"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:text=""
+    android:textColor="#000033"
+    android:textSize="30sp" >
+
+</TextView>
+    
+   <com.freddymartens.android.widgets.Gauge
+     android:id="@+id/meter2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/mainStatus2"     
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="20dp"
+     atswidget:incrementPerLargeNotch="0"
+     atswidget:incrementPerSmallNotch="0"
+     atswidget:lowerTitle=""
+     atswidget:rangeErrorColor="0x9fff0000"
+     atswidget:rangeErrorMaxValue="200"
+     atswidget:rangeErrorMinValue="160"
+     atswidget:rangeOkColor="0x9f00ff00"
+     atswidget:rangeOkMaxValue="100"
+     atswidget:rangeOkMinValue="0"
+     atswidget:rangeWarningColor="0x9fff8800"
+     atswidget:rangeWarningMaxValue="160"
+     atswidget:rangeWarningMinValue="100"
+     atswidget:scaleCenterValue="100"
+     atswidget:scaleColor="0x9f004d0f"
+     atswidget:scaleMaxValue="200"
+     atswidget:scaleMinValue="0"
+     atswidget:showGauge="true"
+     atswidget:showHand="true"
+     atswidget:showRange="true"
+     atswidget:totalNotches="0"
+     atswidget:unitTitle="@string/drinkometer"
+     atswidget:upperTitle="" />
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/taxi_sms"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundblue"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <ImageView
+        android:id="@+id/taxiMagicImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/taxiMagicImageDescription"
+        android:src="@drawable/taxi_magic" />
+
+    <TextView
+        android:id="@+id/taxiScreenLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/taxiScreenLabelVerbage" />
+
+    <EditText
+        android:id="@+id/taxiSMSMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/taxiScreenLabel"
+        android:layout_alignRight="@+id/taxiScreenLabel"
+        android:layout_below="@+id/taxiScreenLabel"
+        android:layout_marginTop="23dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/taxiScreenLabel2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/taxiMagicImage"
+        android:layout_alignRight="@+id/taxiMagicImage"
+        android:layout_marginBottom="28dp"
+        android:text="@string/taxiMagicBottomVerbage"
+        android:textColor="#000033" />
+
+    <Button
+        android:id="@+id/taxiCancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/taxiScreenLabel2"
+        android:layout_alignLeft="@+id/taxiScreenLabel2"
+        android:layout_alignRight="@+id/taxiScreenLabel2"
+        android:layout_marginBottom="15dp"
+        android:text="@string/cancelButtonVerbage"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/getTaxiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/taxiCancelButton"
+        android:layout_alignLeft="@+id/taxiCancelButton"
+        android:layout_alignRight="@+id/taxiCancelButton"
+        android:text="@string/getTaxiButtonVerbage"
+        android:textSize="30sp" />
+
+</RelativeLayout>

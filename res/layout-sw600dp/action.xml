@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal">
+    <RelativeLayout
+        android:id="@+id/relativeTop"
+        android:layout_width="fill_parent"
+        android:padding="6dip"
+        android:layout_height="?android:attr/listPreferredItemHeight">
+        <ImageView
+            android:id="@+id/user_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="6dip" />
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/user_pic" />
+        <com.facebook.android.LoginButton
+            android:id="@+id/login"
+            android:src="@drawable/login_button"
+            android:layout_toRightOf="@id/user_pic"
+            android:layout_below="@id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/relativeTop"> <!-- here it goes! -->
+        <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:background="@drawable/backgroundblue" >
+        
+        <Button
+            android:id="@+id/callFriendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/login"
+            android:text="@string/callFriendButtonString"
+            android:textSize="40sp" >
+        </Button>
+        
+         <Button
+            android:id="@+id/drunkDialButton"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/callFriendButton"
+            android:text="@string/drunkDialButtonString"
+            android:textSize="40sp" >
+        </Button>
+
+        <Button
+            android:id="@+id/findFriendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/drunkDialButton"
+            android:text="@string/findFriendButtonString"
+            android:textSize="40sp" >
+        </Button>
+
+        <Button
+            android:id="@+id/callTaxiButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/findFriendButton"
+            android:text="@string/callTaxiButtonString"
+            android:textSize="40sp" >
+        </Button>
+
+        <Button
+            android:id="@+id/TaxiMagicButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/callTaxiButton"
+            android:text="@string/TaxiMagicButtonString"
+            android:textSize="40sp" >
+        </Button>
+        
+           <Button
+            android:id="@+id/placesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/TaxiMagicButton"
+            android:text="@string/FindPLacesButtonString"
+            android:textSize="40sp" />
+           
+             <Button
+            android:id="@+id/facebookPostButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/placesButton"
+            android:text="@string/facebookPostButtonString"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/tweetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/facebookPostButton"
+            android:text="@string/tweetButtonString"
+            android:textSize="40sp" />
+
+       
+        <Button
+            android:id="@+id/whereamiButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tweetButton"
+            android:text="@string/whereamiButtonString"
+            android:textSize="40sp" />
+        
+         <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+             android:layout_below="@+id/whereamiButton"
+            android:text="@string/cancelButtonString"
+            android:textSize="40sp" />
+    </RelativeLayout>
+      </ScrollView>
+</LinearLayout>

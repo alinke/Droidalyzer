@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundblue"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/fb_login_status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="facebook login status"
+        android:textColor="@color/darkblue"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/twitter_login_status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="twitter login status"
+        android:textColor="@color/darkblue"
+        android:textSize="16sp" />
+
+    
+
+    <Button
+        android:id="@+id/facebookLogoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/twitter_btn_clear_credentials"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/facebookLogoutButtonVerbage"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/twitter_btn_clear_credentials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fb_btn_post"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/btn_clear_credentialsVerbage"
+        android:textSize="20sp" />
+    
+    <Button
+        android:id="@+id/fb_btn_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/twitter_btn_post"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/fb_btn_post"
+        android:textSize="20sp" />
+    
+    <Button
+        android:id="@+id/twitter_btn_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/socialMediaScreenLabel"
+        android:text="@string/twitter_btn_post"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/socialMediaScreenLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/socialMediaLabel"
+        android:textColor="@color/darkblue" />
+
+    
+
+</RelativeLayout>
