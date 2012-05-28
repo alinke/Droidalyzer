@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      android:versionCode="8"
-      android:versionName="2.4.1" package="talkingbreathalyzer.main.source">
+      android:versionCode="9"
+      android:versionName="2.4.2" package="talkingbreathalyzer.main.source">
 	   
 	 
 	    <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="10"/>
