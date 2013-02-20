@@ -30,21 +30,4 @@
 		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>IOIOLibBT_src</name>
-			<type>2</type>
-			<locationURI>_android_IOIOLibBT_f6d66c2b/src</locationURI>
-		</link>
-		<link>
-			<name>IOIOLib_src</name>
-			<type>2</type>
-			<locationURI>_android_IOIOLib_a09f8619/src</locationURI>
-		</link>
-		<link>
-			<name>com_facebook_android_src</name>
-			<type>2</type>
-			<locationURI>_android_com_facebook_android_7f2a44f4/src</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>

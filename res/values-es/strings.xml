@@ -293,4 +293,8 @@
     
     <string name="batteryInfoString">The battery life of the Droidalyzer hardware device</string>
     <string name="batteryInfoStringTitle">Droidalyzer Battery</string>
+    
+     <string name="bluetooth_pair">Blueooth Pairing</string>
+    <string name="bluetooth_pairSummary">Shortcut to the Bluetooth settings screen. Pair to IOIO using code: 4545</string>
+    
 </resources>

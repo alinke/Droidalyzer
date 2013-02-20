@@ -8,10 +8,11 @@ import ioio.lib.api.AnalogInput;
 import ioio.lib.api.DigitalOutput;
 import ioio.lib.api.IOIO;
 import ioio.lib.api.exception.ConnectionLostException;
-import ioio.lib.util.AbstractIOIOActivity; //deprecated
-//import ioio.lib.util.BaseIOIOLooper;
-//import ioio.lib.util.IOIOLooper;
-//import ioio.lib.util.android.IOIOActivity;
+//import ioio.lib.util.AbstractIOIOActivity; //deprecated
+import ioio.lib.util.IOIOLooper;
+import ioio.lib.util.BaseIOIOLooper;
+import ioio.lib.util.IOIOLooper;
+import ioio.lib.util.android.IOIOActivity;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -81,7 +82,8 @@ import android.util.Log;
 import android.os.SystemClock;
 import android.os.Message;
 
-public class breath extends AbstractIOIOActivity implements TextToSpeech.OnInitListener { //this is the old one which was deprecated
+//public class breath extends AbstractIOIOActivity implements TextToSpeech.OnInitListener { //this is the old one which was deprecated
+public class breath extends IOIOActivity implements TextToSpeech.OnInitListener { //this is the old one which was deprecated
 //public class breath extends IOIOActivity implements TextToSpeech.OnInitListener {	
 	private static final int alcoholPinNumber = 40; //the pin used on IOIO for the alchohol sensor input
 	private static final int batteryPinNumber = 41; //the pin used on IOIO for the alchohol sensor input
@@ -780,15 +782,15 @@ public class breath extends AbstractIOIOActivity implements TextToSpeech.OnInitL
    }
  }
 	
-	class IOIOThread extends AbstractIOIOActivity.IOIOThread {  //only goes here if the Breathalyzer (IOIO) was detected
-    //class Looper extends BaseIOIOLooper {
+	//class IOIOThread extends AbstractIOIOActivity.IOIOThread {  //only goes here if the Breathalyzer (IOIO) was detected
+    class Looper extends BaseIOIOLooper {
     	private AnalogInput alcohol;	
     	private AnalogInput battery;	
     	private DigitalOutput led_;
     	private DigitalOutput heatPin;	
     	
-		//public void setup() throws ConnectionLostException {
-	    protected void setup() throws ConnectionLostException {
+    	public void setup() throws ConnectionLostException {
+	    //protected void setup() throws ConnectionLostException {
 						
 			try {
 				alcohol = ioio_.openAnalogInput(alcoholPinNumber);				
@@ -881,13 +883,13 @@ public class breath extends AbstractIOIOActivity implements TextToSpeech.OnInitL
 						e1.printStackTrace();
 					}
 					
-				//	runOnUiThread(new Runnable() { //forces it to run on the main ui thread //moved this to a timer so it's no updated so frequently
-				//	     public void run() {
+					//runOnUiThread(new Runnable() { //forces it to run on the main ui thread //moved this to a timer so it's no updated so frequently
+					  //   public void run() {
 
-				//	    	 setBatteryMeter();
+					    	// setBatteryMeter();
 
-				//	    }
-				//	});
+					   // }
+					//});
 					
 					
 					runOnUiThread(new Runnable() { //forces it to run on the main ui thread
@@ -938,9 +940,14 @@ public class breath extends AbstractIOIOActivity implements TextToSpeech.OnInitL
 		
 	}
 
-	@Override //this was deprecated
-	protected AbstractIOIOActivity.IOIOThread createIOIOThread() {
-		return new IOIOThread();
+	//@Override //this was deprecated
+	//protected AbstractIOIOActivity.IOIOThread createIOIOThread() {
+	//	return new IOIOThread();
+	//}
+	
+	@Override	
+	protected IOIOLooper createIOIOLooper() {
+		return new Looper();
 	}
 	
 	//@Override
@@ -2001,8 +2008,10 @@ public class breath extends AbstractIOIOActivity implements TextToSpeech.OnInitL
 
 		//private int p = 0;
 		//private AnalogInput battery;	
+		 
 		public BatteryTimer(long startTime, long interval)
 			{
+				
 				super(startTime, interval);
 			}
 
@@ -2015,6 +2024,7 @@ public class breath extends AbstractIOIOActivity implements TextToSpeech.OnInitL
 
 		@Override
 		public void onTick(long millisUntilFinished)	{
+			
 			if (state == 0 && batteryVoltage != 0) { //only update the battery if we are on the home screen				
 				
 		
@@ -2032,6 +2042,7 @@ public class breath extends AbstractIOIOActivity implements TextToSpeech.OnInitL
 				runOnUiThread(new Runnable() { //forces it to run on the main ui thread //moved this to a timer so it's no updated so frequently
 					public void run() {
 					setBatteryMeter();
+					
 					}
 				});
 				

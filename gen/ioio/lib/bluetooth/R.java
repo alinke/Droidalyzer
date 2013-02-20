@@ -461,6 +461,8 @@ Text Prompts
          */
         public static final int blowForText=0x7f090062;
         public static final int blowPrompt=0x7f09006a;
+        public static final int bluetooth_pair=0x7f090102;
+        public static final int bluetooth_pairSummary=0x7f090103;
         public static final int breathalyzerStatusText=0x7f090005;
         public static final int btn_clear_credentialsVerbage=0x7f090041;
         public static final int callFriendButtonString=0x7f09002b;
@@ -604,7 +606,7 @@ Text Prompts
         public static final int menu_instructions_title=0x7f09000d;
         public static final int menu_prefs_title=0x7f09000b;
         public static final int menu_socialmedia_title=0x7f09000e;
-        public static final int menu_twitter_title=0x7f090102;
+        public static final int menu_twitter_title=0x7f090104;
         public static final int message_posted_on_wall=0x7f0900e9;
         public static final int min_baseline=0x7f09001a;
         public static final int myLocationString=0x7f090003;
@@ -735,7 +737,8 @@ Text Prompts
         public static final int ListView=0x7f0a0001;
     }
     public static final class xml {
-        public static final int preferences=0x7f050000;
+        public static final int accessory_filter=0x7f050000;
+        public static final int preferences=0x7f050001;
     }
     public static final class styleable {
         /** Attributes that can be used with a Dial.

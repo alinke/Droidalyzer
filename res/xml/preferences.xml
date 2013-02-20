@@ -13,6 +13,13 @@
     android:entryValues="@array/character_values"
     android:dialogTitle="@string/dialogTitleVoice"
     android:defaultValue="@string/character_default_value" />
+  
+   <PreferenceScreen 
+    android:title="@string/bluetooth_pair"
+    android:summary="@string/bluetooth_pairSummary">
+   <intent android:action="android.settings.BLUETOOTH_SETTINGS">
+   </intent>
+   </PreferenceScreen>
     
     <!-- <CheckBoxPreference
     android:title="Call Taxi"

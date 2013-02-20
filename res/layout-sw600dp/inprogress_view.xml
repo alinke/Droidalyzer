@@ -80,7 +80,7 @@
     android:paddingTop="5dp"
     android:text=""
     android:textColor="#000033"
-    android:textSize="30sp" >
+    android:textSize="46sp" >
 
 </TextView>
     

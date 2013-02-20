@@ -130,12 +130,23 @@ android:layout_alignParentLeft="true"
     android:paddingTop="5dp"
     android:textSize="20sp"
     /> -->
+    
+    <ImageButton
+    android:id="@+id/batteryStatus"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:background="@android:color/transparent"
+    android:layout_below="@+id/breathBar"
+    android:onClick="batteryInfoEvent"
+   />
 
 <ImageButton
     android:id="@+id/i_button"
     android:layout_width="70dp"
     android:layout_height="70dp"
-    android:layout_alignRight="@+id/detected_label"
+    android:layout_alignLeft="@+id/beerButton"
     android:layout_alignTop="@+id/char_button"
     android:background="@android:color/transparent"
     android:onClick="iButtonEvent"
