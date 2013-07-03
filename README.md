@@ -1,7 +1,6 @@
 Droidalyzer
 ===========
 
-Droidalyzer
 
 Follow these steps to compile the Droidalyzer code in Eclipse. 
 
