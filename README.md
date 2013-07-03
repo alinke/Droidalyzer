@@ -18,4 +18,4 @@ instead of the "Google APIs", the project won't compile as the projects needs th
 
 5. Now from the same screen, add the three IOIO libraries and the facebook SDK. Your Eclipse screen should look like this:
 
-![alt tag](http://droidalyzer.com/files/droidalyzer-eclipse-properaties.jpg
+![alt tag](http://droidalyzer.com/files/droidalyzer-eclipse-properaties.jpg)
