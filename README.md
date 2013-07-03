@@ -19,11 +19,11 @@ in addition to this project which will show up as AndroidBreathalyzer.
 ![alt tag](http://droidalyzer.com/files/droidalyzer-overall-eclipse.jpg)
 
 
-4. Right click on the AndroidBreathalyzer project in Eclipse, choose "Properties", and then click "Android". 
+5. Right click on the AndroidBreathalyzer project in Eclipse, choose "Properties", and then click "Android". 
 Check the Target of "Google APIs" , platform 2.2, API level 8. IMPORTANT: If you select "Android 2.2" 
 instead of the "Google APIs", the project won't compile as the projects needs the Google Maps API. 
 
-5. Now from the same screen, add the three IOIO libraries and the facebook SDK. Your Eclipse screen should look like this:
+6. Now from the same screen, add the three IOIO libraries and the facebook SDK. Your Eclipse screen should look like this:
 
 ![alt tag](http://droidalyzer.com/files/droidalyzer-eclipse-properaties.jpg)
 
