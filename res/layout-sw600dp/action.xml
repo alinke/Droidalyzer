@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/user_pic" />
-        <com.facebook.android.LoginButton
+        <talkingbreathalyzer.main.source.LoginButton
             android:id="@+id/login"
             android:src="@drawable/login_button"
             android:layout_toRightOf="@id/user_pic"

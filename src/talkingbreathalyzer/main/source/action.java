@@ -13,7 +13,6 @@ import com.facebook.android.AsyncFacebookRunner;
 import com.facebook.android.Facebook;
 import com.facebook.android.BaseRequestListener;
 import com.facebook.android.FacebookError;
-import com.facebook.android.LoginButton;
 
 import android.widget.Toast;
 import com.facebook.android.SessionEvents;

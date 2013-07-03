@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.facebook.android;
+package talkingbreathalyzer.main.source;
 
 import android.app.Activity;
 import android.content.Context;
@@ -25,6 +25,15 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ImageButton;
 
+//import talkingbreathalyzer.main.source.*;
+
+import com.facebook.android.AsyncFacebookRunner;
+import com.facebook.android.BaseRequestListener;
+import com.facebook.android.DialogError;
+import com.facebook.android.Facebook;
+import com.facebook.android.FacebookError;
+import com.facebook.android.SessionEvents;
+import com.facebook.android.SessionStore;
 import com.facebook.android.Facebook.DialogListener;
 import com.facebook.android.SessionEvents.AuthListener;
 import com.facebook.android.SessionEvents.LogoutListener;
